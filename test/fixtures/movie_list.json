@@ -1,0 +1,403 @@
+{
+    "page": 2,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+            "genre_ids": [
+                16,
+                35,
+                12,
+                10751
+            ],
+            "id": 459151,
+            "original_language": "en",
+            "original_title": "The Boss Baby: Family Business",
+            "overview": "Tim Templeton e seu irmão mais novo Ted, o famoso Boss Baby, tornaram-se adultos, vivem por conta própria, Tim se tornou um homem de família organizado e Ted é o chefe de um grande fundo especulativo. Mas a chegada de um novo Boss Baby, com uma abordagem totalmente nova e estratégia inovadora, está prestes a unir os irmãos inimigos ... e inspirar um novo modelo nos assuntos familiares.  Tim e sua esposa Carole moram no subúrbio, onde ele cuida da casa enquanto ela cozinha a panela. Eles têm dois filhos: Tabitha, uma menina de 7 anos extremamente inteligente, e Tina, sua adorável recém-nascida. Tabitha, a primeira da classe em uma escola para superdotados, adora o tio Ted e sonha em seguir seus passos, o que preocupa muito Tim, que teme perder a infância por trabalhar tanto.",
+            "popularity": 884.127,
+            "poster_path": "/olnWkuNwCDHPYTkLKktUnFLyHFg.jpg",
+            "release_date": "2021-07-01",
+            "title": "O Poderoso Chefinho 2: Negócios da Família",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 1434
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dsdbViTNjLu4DbgkkYmuY4xDQ20.jpg",
+            "genre_ids": [
+                27,
+                53,
+                9648
+            ],
+            "id": 585216,
+            "original_language": "en",
+            "original_title": "Escape Room: Tournament of Champions",
+            "overview": "Seis pessoas inconscientemente se encontram trancadas em outra série de salas de fuga, lentamente descobrindo o que têm em comum para sobreviver, enquanto descobrem todos os jogos que jogaram antes.",
+            "popularity": 829.631,
+            "poster_path": "/ir3cxdjrJJ1r127hCeGneBYe3fS.jpg",
+            "release_date": "2021-07-01",
+            "title": "Escape Room 2: Tensão Máxima",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 464
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/26LIw3oKGPUEGUpb8AXZ64dZZt8.jpg",
+            "genre_ids": [
+                16,
+                35,
+                9648,
+                10751,
+                14
+            ],
+            "id": 843906,
+            "original_language": "en",
+            "original_title": "Straight Outta Nowhere: Scooby-Doo! Meets Courage the Cowardly Dog",
+            "overview": "Uma luz mística vindo de um OVNI causa grande confusão em uma cidade do interior. Quando pessoas começam a desaparecer, Scooby Doo e a turma são chamados para resolverem o mistério que pode ser maior do que eles imaginam.",
+            "popularity": 765.248,
+            "poster_path": "/kIzMlyaIFWWkFDVbla2O10kYe1b.jpg",
+            "release_date": "2021-09-14",
+            "title": "Diretamente de Lugar Nenhum: Scooby-Doo Encontra Coragem",
+            "video": false,
+            "vote_average": 8.3,
+            "vote_count": 161
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pUc51UUQb1lMLVVkDCaZVsCo37U.jpg",
+            "genre_ids": [
+                53,
+                27
+            ],
+            "id": 482373,
+            "original_language": "en",
+            "original_title": "Don't Breathe 2",
+            "overview": "O Homem nas Trevas 2 é a continuação oficial de O Homem nas Trevas. A história de um homem cego que aterroriza invasores de sua casa. A sequência se passa anos após a primeira invasão; quando Norman Nordstrom (Stephen Lang) vive isolado na tranquilidade de sua residência até que os pecados do seu passado voltam para cobrar seu preço.",
+            "popularity": 844.883,
+            "poster_path": "/bE46qkPtUnff8READ0AYZP9mVj2.jpg",
+            "release_date": "2021-08-12",
+            "title": "O Homem nas Trevas 2",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 792
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gzppdxEJ6fofhtLzSVSUJZEVxvq.jpg",
+            "genre_ids": [
+                28,
+                878,
+                53
+            ],
+            "id": 848278,
+            "original_language": "en",
+            "original_title": "Jurassic Hunt",
+            "overview": "A aventureira Parker se junta a uma equipe de caçadores de troféus em um remoto parque selvagem. Seu objetivo: matar dinossauros geneticamente recriados para o esporte usando rifles, flechas e granadas.",
+            "popularity": 712.132,
+            "poster_path": "/uYwlxf1XLQjZyYQIV3ViqmUg4t6.jpg",
+            "release_date": "2021-09-01",
+            "title": "Caça Jurássica",
+            "video": false,
+            "vote_average": 5,
+            "vote_count": 137
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nprqOIEfiMMQx16lgKeLf3rmPrR.jpg",
+            "genre_ids": [
+                28
+            ],
+            "id": 619297,
+            "original_language": "en",
+            "original_title": "Sweet Girl",
+            "overview": "Ele perdeu o amor de sua vida por causa da ganância da indústria farmacêutica. Agora, sua filha está órfã e a justiça não chega. Por enquanto.",
+            "popularity": 767.813,
+            "poster_path": "/cygRJp2OQKsiGbJxKq5TbvzW9QR.jpg",
+            "release_date": "2021-08-18",
+            "title": "Justiça em Família",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 607
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qD45xHA35HdJDGOaA1AgDwiWEgO.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 744275,
+            "original_language": "en",
+            "original_title": "After We Fell",
+            "overview": "Embora a história de amor entre Tessa Young e Hardin Scott tenha passado por muitas complicações, desta vez o problema é mais complexo do que nunca. Agora que Tessa tomou uma das decisões mais importantes de sua vida, tudo mudou completamente. Os segredos que vêm à tona sobre suas famílias colocam em risco seu relacionamento e seu futuro juntos. Embora a jovem saiba que Hardin a ama, os dois estão cercados de ciúme, ódio e perdão. Será que o amor entre os dois será o suficiente para manter seu relacionamento?",
+            "popularity": 759.167,
+            "poster_path": "/stYOdg6kFi9jl9aGLeh9vLSPiFU.jpg",
+            "release_date": "2021-09-01",
+            "title": "After 3: Depois do Desencontro",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 270
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/piz0BFUJ4Bro4BFzxxkNpsGCmOd.jpg",
+            "genre_ids": [
+                14,
+                10751,
+                27
+            ],
+            "id": 739990,
+            "original_language": "en",
+            "original_title": "Nightbooks",
+            "overview": "Alex é um menino obcecado por histórias assustadoras, e está preso por uma jovem bruxa malvada em seu apartamento contemporâneo em Nova York. Ele conhece Yasmin, que também está presa lá, e aprende que deve contar uma nova história assustadora todas as noites para se manter vivo.",
+            "popularity": 728.096,
+            "poster_path": "/9NTrSviwKL8GxGySG0n1ooyiFMA.jpg",
+            "release_date": "2021-09-15",
+            "title": "Noitários de Arrepiar",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 120
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
+            "genre_ids": [
+                16,
+                28,
+                12,
+                14
+            ],
+            "id": 635302,
+            "original_language": "ja",
+            "original_title": "劇場版「鬼滅の刃」無限列車編",
+            "overview": "Tanjiro Kamado, junto com Inosuke Hashibira, um garoto criado por javalis que usa uma cabeça de javali, e Zenitsu Agatsuma, um garoto assustado que revela seu verdadeiro poder quando dorme, embarca no Trem Infinito em uma nova missão com o Hashira de Fogo, Kyojuro Rengoku, para derrotar um demônio que tem atormentado o povo e matado os caçadores de oni que se opõem a ele!",
+            "popularity": 758.997,
+            "poster_path": "/yaX5hliSF1rwZ9WVNbUchndjFSb.jpg",
+            "release_date": "2020-10-16",
+            "title": "Demon Slayer - Mugen Train: O Filme",
+            "video": false,
+            "vote_average": 8.4,
+            "vote_count": 1682
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xDnFlNrNUoSKPq4uptnhYmUZNpm.jpg",
+            "genre_ids": [
+                27,
+                53,
+                9648,
+                80
+            ],
+            "id": 619778,
+            "original_language": "en",
+            "original_title": "Malignant",
+            "overview": "Em Maligno, Madison (Annabelle Wallis) passa a ter sonhos aterrorizantes de pessoas sendo brutalmente assassinadas. Ela acaba descobrindo que, na verdade, são visões dos crimes enquanto acontecem. Aos poucos, ela percebe que esses assassinatos estão conectados a uma entidade do seu passado chamada Gabriel. Para impedir a criatura, Madison precisará investigar de onde ela surgiu e enfrentar seus traumas de infância.",
+            "popularity": 744.281,
+            "poster_path": "/3Lq3VTrxyMjIMiI91rI6RPqScsu.jpg",
+            "release_date": "2021-09-01",
+            "title": "Maligno",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 635
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5PQhNs4M3RxIqaNAdBI6mXlXyYh.jpg",
+            "genre_ids": [
+                27,
+                14,
+                9648
+            ],
+            "id": 839436,
+            "original_language": "en",
+            "original_title": "Dragon Fury",
+            "overview": "Uma equipe de especialistas viaja profundamente nas montanhas para encontrar uma criatura perigosa.",
+            "popularity": 967.2,
+            "poster_path": "/6WcJ4cV2Y3gnTYp5zHu968TYmTJ.jpg",
+            "release_date": "2021-06-15",
+            "title": "Dragon Fury",
+            "video": false,
+            "vote_average": 4,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mHU833IrBRfZ3hhzEQsiiw2D8Nc.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 565028,
+            "original_language": "en",
+            "original_title": "Candyman",
+            "overview": "Em um bairro pobre de Chicago, a lenda de um espírito assassino conhecido como Candyman (Yahya Abdul-Mateen II) assolou a população anos atrás. Agora, o local foi renovado e é lar de cidadãos de alta classe. Quando o espírito retorna, os novos habitantes também serão obrigados a enfrentar a ira de Candyman.",
+            "popularity": 637.94,
+            "poster_path": "/51Zvpg2kAIrzPdsQcIWojJhEhyS.jpg",
+            "release_date": "2021-08-25",
+            "title": "A Lenda de Candyman",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 361
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tUwgWj9EUK70qqkIlkwzMejc9wJ.jpg",
+            "genre_ids": [
+                878,
+                28,
+                53
+            ],
+            "id": 581726,
+            "original_language": "en",
+            "original_title": "Infinite",
+            "overview": "Evan McCauley tem habilidades que ele nunca aprendeu e lembranças de lugares que nunca visitou. Auto-medicado e à beira de um colapso mental, um grupo secreto que se intitula 'Infinites' vem em seu socorro, revelando que suas memórias são reais.",
+            "popularity": 545.38,
+            "poster_path": "/mLvjQ0IIdzZfQzQXULI7sIVxd8V.jpg",
+            "release_date": "2021-06-10",
+            "title": "Infinito",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 1142
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 637649,
+            "original_language": "en",
+            "original_title": "Wrath of Man",
+            "overview": "Harry, conhecido apenas como H, é um homem misterioso que trabalha para uma empresa de carros-fortes e movimenta grandes quantias de dinheiro pela cidade de Los Angeles. Quando, ao impedir um assalto, ele surpreende a todos com suas habilidades de combate, suas verdadeiras intenções começam a ser questionadas e um plano maior é revelado.",
+            "popularity": 565.196,
+            "poster_path": "/ef2ozkE4AiWwRnyfc9s05sEtAIT.jpg",
+            "release_date": "2021-04-22",
+            "title": "Infiltrado",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 2328
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kmuSGNlF9mfNHIDOEVEWPj6f3Ak.jpg",
+            "genre_ids": [
+                35,
+                80
+            ],
+            "id": 337404,
+            "original_language": "en",
+            "original_title": "Cruella",
+            "overview": "Na Londres dos anos 70 em meio à revolução do punk rock, Estella, uma garota inteligente e criativa determinada a fazer um nome para si através de seus designs. Ela faz amizade com uma dupla de jovens ladrões e, juntos, constroem uma vida para si nas ruas de Londres. Um dia, o talento de Estella para a moda chama a atenção da Baronesa Von Hellman, uma lenda fashion que é devastadoramente chique e assustadora. Mas o relacionamento delas desencadeia um curso de eventos e revelações que farão com que Estella abrace seu lado rebelde e se torne a Cruella má, elegante e voltada para a vingança.",
+            "popularity": 591.952,
+            "poster_path": "/rRYNGhcAZlTfIUS7iFoF4H9iDbc.jpg",
+            "release_date": "2021-05-26",
+            "title": "Cruella",
+            "video": false,
+            "vote_average": 8.3,
+            "vote_count": 5515
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yizL4cEKsVvl17Wc1mGEIrQtM2F.jpg",
+            "genre_ids": [
+                28,
+                878,
+                12
+            ],
+            "id": 588228,
+            "original_language": "en",
+            "original_title": "The Tomorrow War",
+            "overview": "Em 2051, a humanidade está perdendo uma guerra global contra uma espécie mortal de alienígenas. Para garantir a sobrevivência dos humanos, soldados e civis do presente são transportados para o futuro e se juntam à luta, entre eles Dan Forester, um pai de família determinado a salvar o mundo para sua filha.",
+            "popularity": 533.806,
+            "poster_path": "/lWQ3hI78Az2RHfzDpEuvougqUz7.jpg",
+            "release_date": "2021-07-02",
+            "title": "A Guerra do Amanhã",
+            "video": false,
+            "vote_average": 8.1,
+            "vote_count": 4226
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+            "genre_ids": [
+                878,
+                28
+            ],
+            "id": 335983,
+            "original_language": "en",
+            "original_title": "Venom",
+            "overview": "O jornalista Eddie Brock desenvolve força e poder sobre-humanos quando seu corpo se funde com o alienígena Venom. Dominado pela raiva, Venom tenta controlar as novas e perigosas habilidades de Eddie",
+            "popularity": 547.945,
+            "poster_path": "/qZK4LSj7crL6RNGUfD1LSJioA4u.jpg",
+            "release_date": "2018-09-28",
+            "title": "Venom",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 11427
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg",
+            "genre_ids": [
+                28,
+                14,
+                12
+            ],
+            "id": 460465,
+            "original_language": "en",
+            "original_title": "Mortal Kombat",
+            "overview": "O lutador de MMA Cole Young deve treinar para liberar seu verdadeiro poder para unir-se aos maiores campeões mundiais contra inimigos da Exoterra em uma batalha decisiva pelo universo.",
+            "popularity": 539.21,
+            "poster_path": "/ijvC2w2yANsfgLT3LMu2zFr0fxh.jpg",
+            "release_date": "2021-04-07",
+            "title": "Mortal Kombat",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 3826
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fZ4hrFacm5yow9gT64rS6YMNyHz.jpg",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "id": 729720,
+            "original_language": "fr",
+            "original_title": "Le Dernier Mercenaire",
+            "overview": "Richard Brumère, um ex-agente especial do serviço secreto francês que se tornou mercenário, volta à cena quando a imunidade concedida 25 anos antes para seu filho Archibald é suspensa. Uma operação da máfia ameaça a vida de Archibald. Para salvá-lo, Richard terá que procurar seus antigos contatos e unir forças com um bando de jovens imprudentes e um burocrata excêntrico — mas, principalmente, encontrar coragem para deixar que Archibald saiba que ele é seu pai.",
+            "popularity": 386.829,
+            "poster_path": "/iT9k4FyhjLcfMRH8Qzk3wR99pDC.jpg",
+            "release_date": "2021-07-30",
+            "title": "O Último Mercenário",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 401
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/b8cduNIEf75tBSFXDwBJfNAQMFP.jpg",
+            "genre_ids": [
+                53,
+                80
+            ],
+            "id": 659940,
+            "original_language": "da",
+            "original_title": "Marco effekten",
+            "overview": "",
+            "popularity": 591.468,
+            "poster_path": "/u1cROU3xbE3ndDygREi3UO5cRoN.jpg",
+            "release_date": "2021-05-27",
+            "title": "Marco effekten",
+            "video": false,
+            "vote_average": 6.4,
+            "vote_count": 9
+        }
+    ],
+    "total_pages": 500,
+    "total_results": 10000
+}
