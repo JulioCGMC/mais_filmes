@@ -11,6 +11,8 @@ import 'package:dio/src/interceptor.dart' as _i5;
 import 'package:dio/src/options.dart' as _i2;
 import 'package:dio/src/response.dart' as _i6;
 import 'package:dio/src/transformer.dart' as _i4;
+import 'package:mais_filmes/app/shared/sqlite/interfaces/sqlite_driver.dart'
+    as _i10;
 import 'package:mockito/mockito.dart' as _i1;
 
 // ignore_for_file: avoid_redundant_argument_values
@@ -376,6 +378,84 @@ class MockDio extends _i1.Mock implements _i7.Dio {
       (super.noSuchMethod(Invocation.method(#fetch, [requestOptions]),
               returnValue: Future<_i6.Response<T>>.value(_FakeResponse_4<T>()))
           as _i8.Future<_i6.Response<T>>);
+  @override
+  String toString() => super.toString();
+}
+
+/// A class which mocks [ISqliteDriver].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockISqliteDriver extends _i1.Mock implements _i10.ISqliteDriver {
+  MockISqliteDriver() {
+    _i1.throwOnMissingStub(this);
+  }
+
+  @override
+  _i8.Future<int> insert(String? table, Map<String, Object?>? values) =>
+      (super.noSuchMethod(Invocation.method(#insert, [table, values]),
+          returnValue: Future<int>.value(0)) as _i8.Future<int>);
+  @override
+  _i8.Future<int> update(String? table, Map<String, Object?>? values,
+          {String? where}) =>
+      (super.noSuchMethod(
+          Invocation.method(#update, [table, values], {#where: where}),
+          returnValue: Future<int>.value(0)) as _i8.Future<int>);
+  @override
+  _i8.Future<bool> delete(String? table, {String? where}) =>
+      (super.noSuchMethod(Invocation.method(#delete, [table], {#where: where}),
+          returnValue: Future<bool>.value(false)) as _i8.Future<bool>);
+  @override
+  _i8.Future<List<Map<String, Object?>>> select(String? table,
+          {bool? distinct,
+          List<String>? columns,
+          String? where,
+          List<Object?>? whereArgs,
+          String? groupBy,
+          String? having,
+          String? orderBy,
+          int? limit,
+          int? offset}) =>
+      (super.noSuchMethod(
+              Invocation.method(#select, [
+                table
+              ], {
+                #distinct: distinct,
+                #columns: columns,
+                #where: where,
+                #whereArgs: whereArgs,
+                #groupBy: groupBy,
+                #having: having,
+                #orderBy: orderBy,
+                #limit: limit,
+                #offset: offset
+              }),
+              returnValue: Future<List<Map<String, Object?>>>.value(
+                  <Map<String, Object?>>[]))
+          as _i8.Future<List<Map<String, Object?>>>);
+  @override
+  _i8.Future<Map<String, Object?>> get(String? table,
+          {bool? distinct,
+          List<String>? columns,
+          String? where,
+          List<Object?>? whereArgs,
+          String? groupBy,
+          String? having,
+          String? orderBy}) =>
+      (super.noSuchMethod(
+              Invocation.method(#get, [
+                table
+              ], {
+                #distinct: distinct,
+                #columns: columns,
+                #where: where,
+                #whereArgs: whereArgs,
+                #groupBy: groupBy,
+                #having: having,
+                #orderBy: orderBy
+              }),
+              returnValue:
+                  Future<Map<String, Object?>>.value(<String, Object?>{}))
+          as _i8.Future<Map<String, Object?>>);
   @override
   String toString() => super.toString();
 }
