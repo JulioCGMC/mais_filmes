@@ -12,6 +12,7 @@ List<TableModel> tables = [
     'name TEXT',
     'email TEXT',
     'poster_path TEXT',
+    'backdrop_path TEXT',
     'release_date TEXT',
     'title TEXT',
     'vote_average TEXT',

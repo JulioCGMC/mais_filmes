@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:mais_filmes/app/core/constants/default_style.dart';
 import 'package:mais_filmes/app/modules/login/presentation/components/custom_fade_animation_widget.dart';
 
@@ -28,14 +29,22 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
           SingleChildScrollView(
             child: Column(
               children: [
-                const SizedBox(height: 250,
-                  child: Center(
-                    child: CustomFadeAnimationWidget(
-                      delay: 1.6, 
-                      child: Text("Login", 
-                        style: TextStyle(color: Colors.white, 
-                          fontSize: 40, fontWeight: FontWeight.bold),
-                      ),
+                SizedBox(height: 250,
+                  child: CustomFadeAnimationWidget(
+                    delay: 1.6, 
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          MaterialCommunityIcons.movie_open,
+                          color: DefaultStyle.currentTheme(context).primary,
+                          size: 64,
+                        ),
+                        const Text("Login", 
+                          style: TextStyle(color: Colors.white, 
+                            fontSize: 40, fontWeight: FontWeight.bold),
+                        ),
+                      ],
                     ),
                   )
                 ),

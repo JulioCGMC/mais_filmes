@@ -14,8 +14,4 @@ abstract class FavoritesControllerBase with Store {
 
   @computed
   ObservableList<Movie> get favorites => baseController.favorites;
-
-  // Future<void> showMovie(Movie movie) async {
-  //   Modular.to.pushNamed("/home/movie", arguments: movie);
-  // }
 }

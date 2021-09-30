@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
+import 'package:mais_filmes/app/modules/home/presentation/controllers/movie_card_controller.dart';
 import '../../domain/entities/movie.dart';
 
 import '../../../../core/constants/default_style.dart';
@@ -10,66 +11,69 @@ import '../controllers/movies_controller.dart';
 class MovieCard extends StatefulWidget {
   final Movie movie;
 
-  MovieCard(this.movie, {Key? key}) : super(key: key);
+  const MovieCard(this.movie, {Key? key}) : super(key: key);
 
   @override
   State<MovieCard> createState() => _MovieCardState();
 }
 
 class _MovieCardState extends State<MovieCard> {
-  final MoviesController controller = Modular.get();
+  final MovieCardController controller = Modular.get();
 
   bool get isFavorite {
-    return controller.favorites.any((m) => m.id == widget.movie.id);
+    return controller.baseController.favorites.any((m) => m.id == widget.movie.id);
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 200,
-      alignment: Alignment.bottomLeft,
-      child: Stack(
-        children: <Widget>[
-          Container(
-            height: 180,
-            alignment: Alignment.bottomLeft,
-            child: Stack(
-              fit: StackFit.passthrough,
-              children: [
-                Column(
-                  children: [
-                    const Spacer(),
-                    Container(
-                      alignment: Alignment.bottomLeft,
-                      width: MediaQuery.of(context).size.width,
-                      height: 140,
-                      padding: const EdgeInsets.symmetric(vertical: 12,horizontal: 12),
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(12)
+    return InkWell(
+      onTap: () => controller.showMovie(widget.movie),
+      child: Container(
+        height: 200,
+        alignment: Alignment.bottomLeft,
+        child: Stack(
+          children: <Widget>[
+            Container(
+              height: 180,
+              alignment: Alignment.bottomLeft,
+              child: Stack(
+                fit: StackFit.passthrough,
+                children: [
+                  Column(
+                    children: [
+                      const Spacer(),
+                      Container(
+                        alignment: Alignment.bottomLeft,
+                        width: MediaQuery.of(context).size.width,
+                        height: 140,
+                        padding: const EdgeInsets.symmetric(vertical: 12,horizontal: 12),
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(12)
+                        ),
+                        child: Row(
+                          children: <Widget>[
+                            Container(
+                              width: 130,
+                            ),
+                            _cardInfo(context),
+                          ],
+                        )
                       ),
-                      child: Row(
-                        children: <Widget>[
-                          Container(
-                            width: 130,
-                          ),
-                          _cardInfo(context),
-                        ],
-                      )
-                    ),
-                  ],
-                ),
-                _favButton(context)
-              ],
+                    ],
+                  ),
+                  _favButton(context)
+                ],
+              ),
             ),
-          ),
-          Container(
-            height: 180,
-            margin: const EdgeInsets.only(left: 12, top: 6),
-            child: _image(context)
-          ),
-        ]
-      )
+            Container(
+              height: 180,
+              margin: const EdgeInsets.only(left: 12, top: 6),
+              child: _image(context)
+            ),
+          ]
+        )
+      ),
     );
   }
 
@@ -122,14 +126,17 @@ class _MovieCardState extends State<MovieCard> {
     ),
   );
 
-  Widget _image(BuildContext context) => ClipRRect(
-    borderRadius: BorderRadius.circular(8),
-    child: Image.network(
-      widget.movie.imageUrl,
-      height: 160,
-      width: 120,
-      fit: BoxFit.cover
-    )
+  Widget _image(BuildContext context) => Hero(
+    tag: "image_tag_${widget.movie.id}",
+    child: ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: Image.network(
+        widget.movie.posterUrl,
+        height: 160,
+        width: 120,
+        fit: BoxFit.cover
+      )
+    ),
   );
 
   Widget _favButton(BuildContext contex) => Align(

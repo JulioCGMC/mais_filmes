@@ -3,12 +3,14 @@ abstract class Movie {
   String title;
   String description;
   String posterPath;
+  String backdropPath;
   String releaseDate;
   num voteAverage;
 
-  Movie(this.id, this.posterPath, this.releaseDate, this.title, this.voteAverage, this.description);
+  Movie(this.id, this.posterPath, this.backdropPath, this.releaseDate, this.title, this.voteAverage, this.description);
 
-  String get imageUrl;
+  String get posterUrl;
+  String get coverUrl;
   String get formattedReleaseDate;
 
   Map<String,dynamic> toMap();

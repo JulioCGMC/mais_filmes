@@ -4,20 +4,25 @@ import 'package:mais_filmes/app/modules/home/domain/entities/movie.dart';
 
 class MovieModel extends Movie {
   MovieModel({required int id, required String posterPath, 
+    required String backdropPath,
     required String releaseDate,
     required String title,
     required num voteAverage,
     required String description
-  }) : super(id, posterPath, releaseDate, title, voteAverage, description);
+  }) : super(id, posterPath, backdropPath, releaseDate, title, voteAverage, description);
   
   @override
-  String get imageUrl => "https://image.tmdb.org/t/p/w220_and_h330_face$posterPath";
+  String get posterUrl => "https://image.tmdb.org/t/p/w220_and_h330_face$posterPath";
+  @override
+  String get coverUrl => "https://image.tmdb.org/t/p/w500$backdropPath";
+  
   @override
   String get formattedReleaseDate => releaseDate.split('-').reversed.join('/');
 
   MovieModel copyWith({
     int? id,
     String? posterPath,
+    String? backdropPath,
     String? releaseDate,
     String? title,
     num? voteAverage,
@@ -26,6 +31,7 @@ class MovieModel extends Movie {
     return MovieModel(
       id: id ?? this.id,
       posterPath: posterPath ?? this.posterPath,
+      backdropPath: backdropPath ?? this.backdropPath,
       releaseDate: releaseDate ?? this.releaseDate,
       title: title ?? this.title,
       voteAverage: voteAverage ?? this.voteAverage,
@@ -38,6 +44,7 @@ class MovieModel extends Movie {
     return {
       'id': id,
       'poster_path': posterPath,
+      'backdrop_path': backdropPath,
       'release_date': releaseDate,
       'title': title,
       'vote_average': voteAverage,
@@ -49,6 +56,7 @@ class MovieModel extends Movie {
     return MovieModel(
       id: map['id'],
       posterPath: map['poster_path'],
+      backdropPath: map['backdrop_path'],
       releaseDate: map['release_date'],
       title: map['title'],
       voteAverage: num.parse(map['vote_average'].toString()),
